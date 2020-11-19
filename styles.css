@@ -10,8 +10,8 @@ width: 100%;
 padding: 30px;
 }
 header{
-    padding: 20px;
-    width:97% ;
+    
+   
     background: rgb(251, 190, 139);
     font-size: 40px;
 }
@@ -24,11 +24,21 @@ img{
 button{
     margin: 10px;
 }
+
+
+a{
+    text-decoration: none;
+}
 li{
     list-style: none;
 }
+.about{
+    width: 80%;
+    display: flex;
+   border: 1px solid rgb(66, 58, 58);
+   justify-content: center;
 
-
+}
 
 /* body{
     display: flex;
@@ -57,13 +67,8 @@ ol{
     justify-content: center;
     margin: 10px;
 }
-.btn a{
-    color: green;
-    text-decoration: none;
-}
-li{
- list-style: none;
-}
+ */
+
 @media (min-width:900px){
  body { background: coral;
     display: flex;
@@ -74,16 +79,14 @@ li{
    body {
        background: rgb(216, 147, 147);
        justify-items: center;
-   }
-   ol{
-    flex-direction: column;
-    margin-left: 50px;
-   }
-   .btn{
-    margin: 5px;
-    align-items: center;
-   }
-   .container{
-       text-align: center;
-   }
-} */
+   } 
+} 
+@media (max-width:600px){
+    nav button{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+}
