@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: rgb(231, 202, 181);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     background: chocolate;
