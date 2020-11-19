@@ -67,7 +67,7 @@ a:hover{
 
 @media (min-width:900px){
  body { background: rgb(230, 223, 221);
-    display: flex;
+   
     align-content: center;
  }
 }
